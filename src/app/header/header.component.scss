@@ -1,0 +1,38 @@
+.header {
+
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/bg-min.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+  .logo {
+    width: 540px;
+
+    @media (max-width: 670px) {
+      max-width: 250px;
+    }
+
+  }
+
+  .container {
+    height: 100%;
+
+    .row {
+      display: grid;
+      text-align: center;
+    }
+
+    .h-20 {
+      height: 20% !important;
+    }
+
+    h6 {
+      font-size: 18px;
+    }
+  }
+}
